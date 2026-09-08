@@ -1,0 +1,78 @@
+/* Center the form directly in the middle of the screen */
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f2f5;
+  font-family: Arial, sans-serif;
+}
+
+/* Styled form card container */
+.register-form {
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 360px;
+}
+
+/* Form heading adjustments */
+.register-form h1 {
+  text-align: center;
+  color: #333333;
+  margin-bottom: 24px;
+  font-size: 24px;
+}
+
+/* Text label properties */
+.register-form label {
+  display: block;
+  font-size: 14px;
+  color: #666666;
+  margin-bottom: 6px;
+  font-weight: bold;
+}
+
+/* Input boxes style */
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+  box-sizing: border-box; /* Fixes width alignment padding glitches */
+}
+
+/* Changes border color when clicking inside the input boxes */
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Action button style */
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Darkens the button background when hovering the mouse */
+.submit-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Server message placement text */
+.status-message {
+  text-align: center;
+  color: #28a745;
+  font-weight: bold;
+  margin-top: 15px;
+}

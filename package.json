@@ -1,26 +1,19 @@
 {
-  "name": "week5",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "lint": "oxlint",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
   "dependencies": {
-    "react": "^19.2.8",
-    "react-dom": "^19.2.8"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.29.7",
-    "@rolldown/plugin-babel": "^0.2.3",
-    "@types/react": "^19.2.18",
-    "@types/react-dom": "^19.2.4",
-    "@vitejs/plugin-react": "^6.1.0",
-    "babel-plugin-react-compiler": "^1.0.0",
-    "oxlint": "^1.79.0",
-    "vite": "^8.2.2"
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "mysql2": "^3.24.3"
   }
 }
